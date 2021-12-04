@@ -1,0 +1,576 @@
+*{
+    padding:0;
+    margin: 0;
+}
+:root{
+    --primaryColor:#24aef0;
+    --secondaryColor:#d6d6d6;
+    --grayColor:rgb(73, 72, 72);
+}
+body{
+box-sizing: content-box;
+color: black;
+font-family: "Cerebri Sans";
+max-width: 100%;
+overflow-x: hidden;
+font-size: 20px;
+font-weight: 500;
+}
+nav ul li{
+    margin-left: 40px;
+}
+nav{
+    background-color: var(--primaryColor);
+}
+
+.topnav {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  .logo-container{
+top:70px;
+left: 70px;
+position: absolute;
+}
+  .nav-items-container{
+      margin-left: 50px;
+  }
+  
+.topnav a {
+  margin-left: 30px;
+
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
+.topnav .icon {
+    display: none;
+  }
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+.contact-icons-container{
+    position: relative;
+    height: auto;
+    width: auto;
+    padding-left: 30px;
+}
+li{
+   margin:  15px;
+}
+
+
+nav ul li a{
+    font-size: 10px;
+    color: white;
+}
+.social-media-icons-container{
+    position: absolute;
+    right: 50px;
+    display: flex;
+    justify-content: end;
+    margin-top:15px;
+}
+.social-media-icons{
+    color: white;
+    margin: 0 10px;
+font-size: 18px;
+}
+a{
+
+border: none;
+font-size: 25px;
+text-decoration: none;
+color: black;
+}
+.header{
+    position: relative;
+}
+.logo{
+    padding:0px 5px; 
+    height: 10px;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    background-color: var(--primaryColor);
+    border-radius: 5px ;
+}
+#medicamp{
+    position: absolute;
+    top:20;
+    left:20px;
+}
+#nav-menu{
+    margin: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.drop-down-menu{
+    display: inline-block;
+}
+.drop-down-menu i{
+    font-size: 8px;
+}
+.dropdown-content{
+background-color:white;
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+color: black;
+padding: 10px 10px;
+text-decoration: none;
+display: block;
+font-size: 20px;
+
+}
+.dropdown-content a:hover{
+background-color: #ebebebf3;
+
+}
+
+.drop-down-menu:hover .dropdown-content{
+    display: block;
+    cursor: pointer;
+    
+}
+.top-content-improve{
+
+    max-height: 100vh;
+    background-color: #d6d6d6;
+display: flex;
+flex-direction: column;
+padding: 10px  70px ;
+
+
+}
+
+.empowering{
+    color: white;
+    font-size: 30px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--primaryColor);
+}
+h4{
+    font-size: 20px;
+    font-weight: 300;
+}
+.top-our-servivces-about-us{
+    height: auto;
+    width: auto;
+    display: flex;
+   padding: 10px 0px;
+   
+}
+.img-size-text{
+
+text-align: left;
+font-size: 30px;
+color: var(--grayColor);
+opacity: 50%;
+
+}
+button{
+    padding: 15px;
+    width: 120px;
+margin-right: 15px;
+border-style: none;
+font-weight: 600;
+
+}
+
+.ourServices-btn{
+    color: white;
+    background-color: var(--primaryColor);
+}
+
+.about-us-btn{
+    background-color: white;
+    color: var(--primaryColor);
+}
+.our-services-container{
+    display: flex;
+ max-height: 100vh;
+ margin: 10px;
+ font-size: 20px;
+
+}  
+.our-services-container p{
+    text-indent: 0px;
+text-align: justify;
+text-align-last: center;
+padding: 10px;
+}
+
+
+.middle-services{
+   text-align: center;
+font-family: "Cerebri Sans semiBold";
+
+}
+.servicies-circles-icons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+.servicies-circles-icons i{
+    margin-top: 20px;
+    display: flex;
+justify-content: center;
+color: var(--primaryColor);
+}
+.item.social>a {
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    line-height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(63, 63, 63, 0.993);
+    opacity: 0.75
+}
+
+.cards-conatiner{
+    margin-top: 30px;
+display: flex;
+padding: 20px;
+font-size: 20px;
+
+
+}
+
+.cards-img-size-text{
+    text-align: center;
+    font-size: 50px;
+    
+    color: var(--grayColor);
+    position: absolute;
+    }
+.card-top-image-conainer{
+    background-color: var(--secondaryColor);
+    margin-right: 30px;
+    margin-bottom: 10px;
+padding: 100px 100px;
+}
+.cards-conatiner h2,p{
+margin-bottom: 20px;
+}
+
+
+.know-more{
+    color: white;
+    background-color: var(--primaryColor);
+}
+.opening-hours{
+    max-height: 200vh;
+    padding: 10px;
+    color: white;
+    font-size: 30px;
+    background-color: var(--primaryColor);
+position: relative;
+}
+.bottom-image-container{
+    max-height: 100vh;
+  position: relative;
+    padding: 30px;
+
+    background-color: var(--secondaryColor)
+}
+.bottom-image-container span{
+    color: white;
+    display: block;
+    font-size: 25px;
+    position: absolute;
+    top:30px;
+    transform: translate(-50%,-50);
+    left: 25%;
+    text-align-last: center;
+}
+.bottom-image-container i{
+    font-size: 18px;
+}
+.book-apointment{
+    width: 95%;
+    box-sizing: border-box;
+    position: absolute;
+font-size: 20px;
+font-weight: 200;
+bottom: 15px;
+background-color: white;
+}
+.bottom-container-bottom-images{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+.bottom-container-bottom-images h4{
+    border-radius: 50%;
+   background-color: #eee;
+    margin:0px 5px;
+    padding: 25px 10px;
+}
+.our-partners{
+    padding: 15px;
+}
+.our-partners img{
+    margin-right: 80px;
+}
+.our-partners img:hover{
+    cursor: pointer;
+}
+.bottom-img2{
+    border:3px solid var(--primaryColor);
+
+}
+.bottom-img1{
+    border:3px solid white;
+    opacity: 40%;
+
+}
+.our-partners{
+    background-color: #f7f7f7;
+}
+footer{
+    background-color: #1a1e21;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.top-footer{
+    display: flex;
+padding: 30px;
+
+}
+.top-footer span{
+    font-family: 'Univers LT Std 53 Extended';
+    font-size: 10px;
+  color: rgb(197, 197, 197);
+    text-align: justify;
+    text-justify: inter-word;
+    
+
+}
+.latest-posts-img1,.latest-posts-img2{
+    padding: 20px 10px;
+    margin-bottom: 5px;
+    background-color: var(--secondaryColor);
+
+}
+.bottom-footer{
+   background-color:  #111315;
+   padding: 30px;
+}
+.copyright-container{
+    margin-top: 10px;
+    color:rgb(197, 197, 197) ;
+}
+.top-footer h2{
+    font-size: 35px;
+}
+.top-footer div{
+    margin-right: 20px;
+}
+
+.top-footer-about-us{
+    display: flex;
+    flex-direction: column;
+}
+.bottom-footer{
+    display: flex;
+    
+}
+.bottom-footer .social-media-icons-container i{
+padding: 10px;
+background-color: #1a1e21;
+}
+.office-hour{
+    margin-top: 10px;
+}
+.lates-posts-images-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.tags h2{
+    padding-bottom: 5px;
+}
+.tags span{
+padding: 10px;
+border: 1px solid;
+color: rgb(197, 197, 197);
+margin-right: 5px;
+}
+.tags div{
+    margin: 0px 0px 20px;
+}
+ .Neonatology{
+     margin-bottom: 5px;
+ }
+.subscribe-headline{
+    margin-top: 15px;
+    font-size: 20px;
+color: white;
+}
+input[type=text]{
+    padding: 8px 40px;
+}
+.contact-us i{
+position: absolute;
+border: none;
+background-color: var(--primaryColor);
+}
+
+/*Media Queries - Responsivness*/
+
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .drop-down-menu {
+        display: none;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    
+    .topnav.responsive {  
+      position: relative;
+      margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 20px;
+      top: 10px;
+    }
+    .topnav.responsive a  {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .drop-down-menu a{
+        display: block;
+    }
+    .logo-container{
+        top:70px;
+        left: 30px;
+        position: absolute;
+        }
+        ul{
+            flex-direction: column;
+        }
+        .social-media-icons-container{
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            margin-top: 5px;
+    
+        }
+        nav ul li{
+            margin:  0px;
+         }
+         
+        nav ul li{
+            margin-left: 0px;
+        }
+        .top-content-improve{
+   
+        padding: 10px  10px ;
+        
+        }
+        .img-size-text{
+
+            text-align: left;
+            font-size: 50px;
+          
+            
+            }
+            .our-services-container{
+                flex-direction: column;
+                margin-bottom: 400px;
+            }
+            .our-services-container div{
+                margin-right: 0px;
+            
+            }
+            .cards-conatiner{
+                margin-top: 20px;
+
+        
+        flex-direction: column;
+            
+            }
+            .cards-conatiner button{
+                margin: 0px 0px 20px 0px;
+            }
+            .card-top-image-conainer{
+                margin-right: 0px;
+                margin-bottom: 0px;
+            padding: 100px 7    0px;
+            }
+            .cards-conatiner h2,p{
+            margin-bottom: 10px;
+            }
+            .opening-hours{
+                height: 400px;
+            }
+            .opening-hours p{
+             font-size: 20px;
+            }
+
+            .book-apointment{
+              
+            bottom: 0px;
+         
+            }
+            .bottom-image-container span{
+              
+                font-size: 15px;
+
+                top:5px;
+               
+                left: 10%;
+    
+            }
+          .our-partners{
+           display: grid;
+           grid-template-columns:1fr 1fr;
+          }
+          .top-footer{
+        padding: 30px;
+        flex-direction: column;
+        
+        }
+        .bottom-footer{
+            padding-right: 0px;
+            margin-right: 0px;  
+        }
+      
+
+        .copyright-container{
+            font-size: 10px;
+        }
+        .social-media-icons-container i{
+            font-size: 10px;
+        
+         
+            
+        }
+  }
